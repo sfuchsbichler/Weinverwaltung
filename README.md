@@ -25,11 +25,11 @@ Eine Desktop-Anwendung (C# / WinForms) zur digitalen Verwaltung eines Weinlagers
 
 **Hauptansicht – Weinlager:**
 
-!\[Weinlager Hauptansicht](screenshot\_hauptansicht.png)
+![Weinlager Hauptansicht](screenshot_hauptansicht.png)
 
 **Verwaltung der Weingüter:**
 
-!\[Weingüter verwalten](screenshot\_weingueter.png)
+![Weingüter verwalten](screenshot_weingueter.png)
 
 
 
@@ -52,14 +52,14 @@ Die Anwendung benötigt eine lokale MySQL-Datenbank (getestet mit XAMPP):
 
 1. [XAMPP](https://www.apachefriends.org/) installieren und den Apache- sowie MySQL-Dienst starten
 2. phpMyAdmin öffnen (`http://localhost/phpmyadmin`)
-3. Neue Datenbank importieren: `db\_weinverwaltung.sql` (im Repo enthalten) über "Importieren" einspielen
+3. Neue Datenbank importieren: `db_weinverwaltung.sql` (im Repo enthalten) über "Importieren" einspielen
 4. Die Datenbank enthält folgende Tabellen:
 
-   * `tbl\_artikel` – die einzelnen Weine (Bezeichnung, Alkoholgehalt, Jahrgang, Menge, Preis, …)
-   * `tbl\_weingut` – die Weingüter (Name, Adresse, Kontaktdaten)
-   * `tbl\_sorte` – Rebsorten (z. B. Riesling, Cabernet Sauvignon, …)
-   * `tbl\_regal` – Definition des Weinregals (Anzahl Fächer/Spalten)
-   * `tbl\_regalplatz` – Zuordnung, welcher Wein an welchem Regalplatz liegt
+   * `tbl_artikel` – die einzelnen Weine (Bezeichnung, Alkoholgehalt, Jahrgang, Menge, Preis, …)
+   * `tbl_weingut` – die Weingüter (Name, Adresse, Kontaktdaten)
+   * `tbl_sorte` – Rebsorten (z. B. Riesling, Cabernet Sauvignon, …)
+   * `tbl_regal` – Definition des Weinregals (Anzahl Fächer/Spalten)
+   * `tbl_regalplatz` – Zuordnung, welcher Wein an welchem Regalplatz liegt
 
 5. Verbindungsdaten in der Anwendung ggf. an die eigene lokale MySQL-Konfiguration anpassen (Standard: `localhost`, Benutzer `root`, kein Passwort)
 
@@ -90,7 +90,7 @@ Die Anwendung ist in mehrere Klassen aufgeteilt, die jeweils einen klar abgegren
 
 Vor der Umsetzung wurde ein grober UI-Plan mit allen Ansichten und Abläufen (Hauptfenster, Weingüter-Verwaltung, Einlagern-Dialog, Konsum-Notiz, …) skizziert:
 
-!\[Planungsskizze](planungsskizze.png)
+![Planungsskizze](planungsskizze.png)
 
 
 
